@@ -1,0 +1,60 @@
+.container_box{
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #dddbd9;
+}
+.menu_bar{
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+}
+.container_column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.menu_title{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url(/image/logo.png) ;
+}
+
+.log_in{
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-image: url(/image/log_in.png);
+    margin: 0 20px;
+}
+.log_out{
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-image: url(/image/logout.png);
+    margin: 0 20px;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-image: url(/image/user.png);
+    margin: 0 20px;
+}
+.search{
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-image: url(/image/search.png);
+    margin: 0 20px;
+}
+

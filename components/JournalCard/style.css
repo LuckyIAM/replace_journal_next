@@ -1,0 +1,65 @@
+.jornal_container{
+    width: 350px;
+    height: 400px;
+    border: 2px  0 solid #332e29;
+    /* background-color: #f4dfc5; */
+    background-color: #fff;
+    margin: 20px 0;
+    font-weight: 700;
+}
+.box_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.box_icon{
+    width: 60px;
+    height: 60px;
+    background-image: url(../../../public/image/box2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.num-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gap{
+    padding: 20px;
+}
+.box_text, .quantity{
+    font-size: 40px;
+    font-weight: 700;
+}
+.journal_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.show-all-element{
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+ @media (max-width: 871px) {
+    .jornal_container{
+        width: 280px;
+        height: 325px;
+    }
+}
+
+@media (max-width: 705px) {
+    .jornal_container{
+        width: 350px;
+        height: 400px;
+    }
+}
+@media (max-width: 485px) {
+    .jornal_container{
+        width: 280px;
+        height: 325px;
+    }
+}

@@ -1,0 +1,37 @@
+.footer__container{
+    min-height: 190px;
+    background: #332e29;
+    color: #fff;
+    padding: 40px;
+}
+.box2__about{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.about{
+    font-style: italic;
+    
+}
+.adress{
+    font-size: 20px;
+}
+.made{
+    font-size: 11px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+}
+
+@media (max-width: 705px){
+    .footer__container{
+        padding: 15px;
+    }
+    .about{
+        font-size: 16px;
+    }
+    .adress{
+        font-size: 16px;
+    }
+}

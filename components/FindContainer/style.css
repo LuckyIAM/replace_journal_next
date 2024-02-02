@@ -1,0 +1,72 @@
+
+.container2{
+    background-color: #f4dfc5;
+    position: relative;
+    top: -10px;
+    padding: 5% 15%;
+}
+.title2__instruction{
+    color: #332e29;
+    font-size: 35px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    margin: 50px;
+}
+.acordion{
+    color: #332e29;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.findf{
+    width: 70%;
+    padding: 0 15px;
+}
+.num_journal{
+    text-align: center;
+    margin: 20px;
+    padding: 20px 0;
+    font-size: 50px;
+    font-weight: 700;
+    background-color: #f4dfc5;
+}
+
+
+.card_result{
+    position: relative;
+    top: -10px;
+    border-top: 2px solid #000;
+    background-color: #f4dfc5;
+    padding: 0 5%;
+}
+.centred{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+
+}
+@media (max-width: 1400px){
+    .title2__instruction{
+        font-size: 30px;
+        margin: 50px;
+    }
+    .num_journal{
+        text-align: center;
+        margin: 5px;
+        padding: 10px 0;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 600px){
+    .title2__instruction{
+        font-size: 20px;
+        margin: 50px;
+    }
+    .num_journal{
+        text-align: center;
+        margin: 5px;
+        padding: 10px 0;
+        font-size: 30px;
+    }
+}

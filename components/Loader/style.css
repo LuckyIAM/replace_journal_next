@@ -1,0 +1,30 @@
+.loader{
+    width: 100px;
+    height: 100px;
+    border: 7px dashed #fff;
+    border-radius: 50px;
+    z-index: 11;
+    animation: rotate 5s infinite linear;
+}
+.load_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loader_text{
+    font-size: 25px;
+    font-weight: 700;
+    color: #332e29;
+    margin: 30px 0;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

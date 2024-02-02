@@ -1,0 +1,119 @@
+.body_of_main{
+    background: #f4dfc5;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner_img{
+    margin-top: 120px;
+    width: 500px;
+    height: 280px;
+    background-image: url(/image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 20px 0 #001;
+    z-index: 10;
+}
+.title h1{
+    font-weight: 600; 
+    font-size: 45px;
+}
+
+.title{
+    width: 55%;
+    background-color: #fff;
+    margin-top: 100px;
+    margin-left: -160px;
+    z-index: 1;
+    font-size: 35px;
+    padding-left: 280px;
+    padding-top: 40px;
+    color: #332e29;    
+}
+
+
+.button_banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 230px;
+    height: 50px;
+    background-color: #332e29;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1350px){
+    .title h1{
+        font-size: 35px;
+    }
+    .title{
+        margin-left: -250px;
+    }
+}
+
+@media (max-width: 1030px){
+    .title h1{
+        font-size: 30px;
+    }
+}
+@media (max-width: 970px){
+    .banner_img{
+        margin: 60px 5%;
+        width: 120%;
+        height: 200px;
+    }
+    .title h1{
+        font-size: 35px;
+    }
+    .title{
+        width: 90%;
+        margin-top: 220px;
+        margin-left: -450px;
+        padding-left: 50px;
+        padding-top: 40px;  
+    }
+}
+@media (max-width: 600px){
+    .banner_img{
+        margin: 10px 2%;
+        width: 90vw;
+        height: 150px;
+        
+    }
+    .title h1{
+        font-size: 35px;
+    }
+    .title{
+        width: 90%;
+        margin-top: 170px;
+        margin-left: -400px;
+        padding-left: 10px;
+        padding-top: 15px;  
+    }
+}
+@media (max-width: 400px){
+    .body_of_main{
+        height: 300px;
+    }
+    .banner_img{
+        position: relative;
+        left: -45px;
+        margin: 10px;
+        width: 90vw;
+        height: 120px; 
+    }
+    .title h1{
+        font-size: 28px;
+    }
+    .title{
+        position: relative;
+        left: 35px;  
+    }
+}
